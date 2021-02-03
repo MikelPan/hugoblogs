@@ -17,6 +17,18 @@ update_algolia() {
 	fi
 }
 
+push_hugoblogs() {
+	printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"	
+	git pull origin master
+	git add .
+	msg="change files $(date)"
+	if [ -n "$*" ]; then
+		msg="$*"
+	fi
+	git commit -m "$msg"
+	git push origin master
+}
+
 push_github_io() {
 	printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
@@ -45,6 +57,7 @@ push_github_io() {
 }
 
 main() {
+	push_hugoblogs
 	push_github_io
 	update_algolia
 }
