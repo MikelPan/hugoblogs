@@ -1,7 +1,7 @@
 ---
 title: "Mongo安装"
 date: 2021-02-04T06:36:08+08:00
-draft: true
+draft: false
 author: "MikelPan"
 authorLink: ""
 description: "Mongo安装"
