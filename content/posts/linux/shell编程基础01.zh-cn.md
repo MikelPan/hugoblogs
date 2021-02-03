@@ -1,7 +1,7 @@
 ---
 title: "Shell编程基础01"
 date: 2021-02-03T23:21:58+08:00
-draft: true
+draft: false
 author: "MikelPan"
 authorLink: ""
 description: "Shell编程基础01"
