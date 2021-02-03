@@ -4,7 +4,7 @@ date: 2021-02-03T23:06:43+08:00
 draft: false
 author: "MikelPan"
 authorLink: ""
-description: "Mysql事务详解"
+description: "Mysql主从复制"
 tags: ["Mysql"]
 categories: ["数据库"]
 lightgallery: true
