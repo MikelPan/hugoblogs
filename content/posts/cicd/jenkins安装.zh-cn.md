@@ -4,9 +4,9 @@ date: 2021-02-04T17:37:22+08:00
 draft: false
 author: "MikelPan"
 authorLink: ""
-description: "TIDB使用"
-tags: ["ddbs"]
-categories: ["分布式数据库"]
+description: "Jenkins安装"
+tags: ["jenkins"]
+categories: ["CICD"]
 lightgallery: true
 toc:
   auto: false
