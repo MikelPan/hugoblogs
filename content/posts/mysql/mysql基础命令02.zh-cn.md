@@ -1,7 +1,7 @@
 ---
 title: "Mysql基础命令02"
 date: 2021-02-15T05:55:08+08:00
-draft: true
+draft: false
 author: "MikelPan"
 authorLink: ""
 description: "Mysql基础命令02"
