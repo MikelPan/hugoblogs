@@ -77,8 +77,8 @@ dig -t txt  _acme-challenge.clsn.io @8.8.8.8 # 验证证书
 acme.sh --renew  -d *.plyx.site -d plyx.site --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please # 生成证书
 # 使用dns api方式
 api 参考文档 https://github.com/Neilpang/acme.sh/tree/master/dnsapi
-export Ali_Key="asaegbbakkkkkkkkkkak"
-export Ali_Secret="szadaaaaaaaaggggg"
+export Ali_Key=""
+export Ali_Secret=""
 acme.sh --issue --dns dns_ali -d plyx.site -d *.plyx.site
 acme.sh --issue --dns dns_ali -d plyx.site -d *.plyx.site --keylength ec-256
 ```
