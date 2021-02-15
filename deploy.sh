@@ -64,4 +64,4 @@ main() {
 	update_algolia
 }
 
-main 
+main "$*"
