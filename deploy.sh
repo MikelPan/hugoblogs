@@ -48,6 +48,7 @@ push_github_io() {
 	msg="rebuilding site $(date)"
 	if [[ -n "$*" ]]
 	then
+	    echo 'ok!'
 		msg="$*"
 	fi
 	git commit -m "${msg}"
