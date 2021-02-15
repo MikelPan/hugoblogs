@@ -46,7 +46,7 @@ push_github_io() {
 
 	# Commit changes.
 	msg="rebuilding site $(date)"
-	if [ -n "$*" ]
+	if [ -n "$1" ]
 	then
 	    echo 'ok!'
 		msg="$*"
