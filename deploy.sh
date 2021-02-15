@@ -45,13 +45,13 @@ push_github_io() {
 	git add .
 
 	# Commit changes.
-	msg="rebuilding site $(date)"
+	commit_time="rebuilding site $(date)"
 	if [ -n "$*" ]
 	then
 	    echo 'ok!'
 		msg="$*"
 	fi
-	git commit -m "${msg}"
+	git commit -m "$msg $commit_time"
 
 	# Push source and build repos.
 	git push origin master

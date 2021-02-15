@@ -1,10 +1,10 @@
 ---
-title: "Docker-registry安装使用"
+title: "Docker_registry安装使用"
 date: 2021-02-15T15:37:47+08:00
 draft: false
 author: "MikelPan"
 authorLink: ""
-description: "Docker-registry安装使用"
+description: "Docker_registry安装使用"
 tags: ["Docker"]
 categories: ["docker"]
 lightgallery: true
