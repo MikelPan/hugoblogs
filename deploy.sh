@@ -46,7 +46,7 @@ push_github_io() {
 
 	# Commit changes.
 	msg="rebuilding site $(date)"
-	if [ -n "$1" ]
+	if [ -n "$*" ]
 	then
 	    echo 'ok!'
 		msg="$*"
@@ -60,8 +60,8 @@ push_github_io() {
 
 main() {
 	push_hugoblogs
-	push_github_io
+	push_github_io "$*"
 	update_algolia
 }
 
-main
+main 
