@@ -245,6 +245,14 @@ pygmentsUseClassic = false
     # 菜单配置
     [languages.zh-cn.menu]
       [[languages.zh-cn.menu.main]]
+        identifier = "lifes"
+        pre = ""
+        post = ""
+        name = "生活"
+        url = "/lifes/"
+        title = ""
+        weight = 1
+      [[languages.zh-cn.menu.main]]
         identifier = "posts"
         # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
         pre = ""
@@ -254,14 +262,6 @@ pygmentsUseClassic = false
         url = "/posts/"
         title = ""
         weight = 2
-      [[languages.zh-cn.menu.main]]
-        identifier = "lifes"
-        pre = ""
-        post = ""
-        name = "生活"
-        url = "/lifes/"
-        title = ""
-        weight = 1
       [[languages.zh-cn.menu.main]]
         identifier = "tags"
         pre = ""
@@ -363,7 +363,7 @@ pygmentsUseClassic = false
           # 免责声明 (支持 HTML 格式)
           disclaimer = ""
         # 主页文章列表
-        [languages.zh-cn.params.home.posts]
+        [languages.zh-cn.params.home.lifes]
           enable = true
           # 主页每页显示文章数量
           paginate = 20
