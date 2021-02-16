@@ -245,7 +245,7 @@ pygmentsUseClassic = false
     # 菜单配置
     [languages.zh-cn.menu]
       [[languages.zh-cn.menu.main]]
-        identifier = "lifes"
+        identifier = "technology"
         pre = ""
         post = ""
         name = "技术"
