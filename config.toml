@@ -258,10 +258,18 @@ pygmentsUseClassic = false
         identifier = "tags"
         pre = ""
         post = ""
+        name = "生活"
+        url = "/lifes/"
+        title = ""
+        weight = 2
+      [[languages.zh-cn.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
         name = "标签"
         url = "/tags/"
         title = ""
-        weight = 2
+        weight = 3
       [[languages.zh-cn.menu.main]]
         identifier = "categories"
         pre = ""
@@ -269,14 +277,14 @@ pygmentsUseClassic = false
         name = "分类"
         url = "/categories/"
         title = ""
-        weight = 3
+        weight = 4
       [[languages.zh-cn.menu.main]]
         identifier = "documentation"
         pre = ""
         name = "文档"
         url = "/categories/documentation/"
         title = ""
-        weight = 4
+        weight = 5
       [[languages.zh-cn.menu.main]]
         identifier = "about"
         pre = ""
@@ -284,7 +292,7 @@ pygmentsUseClassic = false
         name = "关于"
         url = "/about/"
         title = ""
-        weight = 5
+        weight = 6
       [[languages.zh-cn.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -292,7 +300,7 @@ pygmentsUseClassic = false
         name = ""
         url = "https://github.com/MikelPan/Cnblog.git"
         title = "GitHub"
-        weight = 6
+        weight = 7
     [languages.zh-cn.params]
       # 网站描述
       description = "关于 LoveIt 主题"

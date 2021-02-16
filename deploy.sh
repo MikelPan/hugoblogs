@@ -45,7 +45,7 @@ push_github_io() {
 	git add .
 
 	# Commit changes.
-	commit_time="rebuilding site $(date)"
+	commit_time="$(date)"
 	if [ -n "$*" ]
 	then
 	    echo 'ok!'
