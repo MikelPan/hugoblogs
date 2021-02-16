@@ -5,7 +5,7 @@ draft: false
 author: "MikelPan"
 authorLink: ""
 description: "TIDB使用"
-tags: [”tidb"]
+tags: ["tidb"]
 categories: ["分布式数据库"]
 lightgallery: true
 toc:
