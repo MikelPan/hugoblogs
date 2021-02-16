@@ -255,7 +255,7 @@ pygmentsUseClassic = false
         title = ""
         weight = 1
       [[languages.zh-cn.menu.main]]
-        identifier = "tags"
+        identifier = "lifes"
         pre = ""
         post = ""
         name = "生活"
