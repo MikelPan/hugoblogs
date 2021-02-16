@@ -248,20 +248,20 @@ pygmentsUseClassic = false
         identifier = "lifes"
         pre = ""
         post = ""
-        name = "生活"
-        url = "/lifes/"
+        name = "技术"
+        url = "/technology/"
         title = ""
-        weight = 1
+        weight = 2
       [[languages.zh-cn.menu.main]]
         identifier = "posts"
         # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
         pre = ""
         # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
         post = ""
-        name = "技术"
+        name = "生活"
         url = "/posts/"
         title = ""
-        weight = 2
+        weight = 1
       [[languages.zh-cn.menu.main]]
         identifier = "tags"
         pre = ""
