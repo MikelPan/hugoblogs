@@ -1,5 +1,5 @@
 ---
-title: "Lifes"
+title: "自由人风景鉴赏"
 date: 2021-02-16T14:47:00+08:00
 draft: false
 author: "MikelPan"
