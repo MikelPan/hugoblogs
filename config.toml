@@ -250,10 +250,10 @@ pygmentsUseClassic = false
         pre = ""
         # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
         post = ""
-        name = "所有文章"
+        name = "技术"
         url = "/posts/"
         title = ""
-        weight = 1
+        weight = 2
       [[languages.zh-cn.menu.main]]
         identifier = "lifes"
         pre = ""
@@ -261,7 +261,7 @@ pygmentsUseClassic = false
         name = "生活"
         url = "/lifes/"
         title = ""
-        weight = 2
+        weight = 1
       [[languages.zh-cn.menu.main]]
         identifier = "tags"
         pre = ""
