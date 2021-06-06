@@ -4,9 +4,9 @@ subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-author: ""
+author: "MikelPan"
 authorLink: ""
-description: ""
+description: "{{ replace .TranslationBaseName "-" " " | title }}"
 
 tags: []
 categories: []
